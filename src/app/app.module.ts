@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { MovingLettersComponent } from './moving-letters/moving-letters.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MovingLettersComponent
   ],
   imports: [
     BrowserModule,
