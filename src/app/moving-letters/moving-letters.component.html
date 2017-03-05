@@ -1,3 +1,5 @@
-<p>
-  moving-letters works!
-</p>
+<div #container class="moving-letters">
+ <span *ngFor="let letter of letters2" [ngStyle]="{'left': letter.left, 'top': letter.top }">
+  {{ letter.text }}
+ </span>
+</div>

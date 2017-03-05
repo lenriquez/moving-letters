@@ -1,0 +1,9 @@
+.moving-letters {
+  height: 100%;
+  background: blue;
+  color: white;
+}
+
+.moving-letters span {
+  position: relative;
+}
